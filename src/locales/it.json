@@ -1,0 +1,70 @@
+{
+    "nav": {
+        "about": "Chi Siamo",
+        "contact": "Contatti",
+        "login": "Accedi"
+    },
+    "hero": {
+        "title1": "Saggezza Curata",
+        "title2_pre": "per la Mente",
+        "title2_post": "Moderna",
+        "subtitle": "Un club di abbonamento esclusivo che ti connette con l'arte, la filosofia e gli artefatti culturali più profondi del mondo.",
+        "cta": "Unisciti a Noi"
+    },
+    "about": {
+        "title": "La Filosofia della Cornice",
+        "p1": "Crediamo che una parete vuota sia una casa senza anima, proprio come una mente senza arte e filosofia.",
+        "p2": "Su Paspartu.co, non vendiamo solo cornici; curiamo finestre intellettuali. Il nostro nome deriva dal 'passe-partout': lo spazio elegante che protegge un capolavoro dandogli fuoco e profondità. Per noi, questo spazio rappresenta la chiarezza che cerchiamo in un mondo rumoroso.",
+        "p3": "Ogni mese, selezioniamo un tema, generiamo un'opera d'arte unica e ti invitiamo a un'assemblea intellettuale. Perché la tua casa dovrebbe essere un riflesso della tua mente: profonda, curata e viva."
+    },
+    "gallery": {
+        "title": "Galleria Esclusiva",
+        "link": "Vedi Collezione Completa"
+    },
+    "philosophy": {
+        "title_pre": "L'Arte del",
+        "title_highlight": "Pensare",
+        "p1": "In un'epoca di rumore, Paspartu offre silenzio. Curiamo un dialogo mensile tra i grandi pensatori del passato e gli artisti d'avanguardia del presente.",
+        "p2": "Il tuo abbonamento ti garantisce artefatti fisici—libri, stampe e saggi—progettati non solo per essere letti, ma per essere vissuti. Un rifugio tattile per l'intellettuale moderno."
+    },
+    "membership": {
+        "title": "Abbonamento",
+        "subtitle": "Scegli il tuo livello di coinvolgimento.",
+        "tier1_name": "Osservatore",
+        "tier1_desc": "Accesso digitale alla nostra newsletter settimanale e agli archivi pubblici.",
+        "tier1_feat1": "Editoriale Settimanale",
+        "tier1_feat2": "Accesso Archivio Pubblico",
+        "tier1_feat3": "Forum Comunità (Sola lettura)",
+        "tier2_name": "Membro",
+        "tier2_desc": "L'esperienza digitale completa + stampa fisica trimestrale.",
+        "tier2_feat1": "Tutti i benefici Osservatore",
+        "tier2_feat2": "Rivista Cartacea Trimestrale",
+        "tier2_feat3": "Saggi Riservati ai Membri",
+        "tier2_feat4": "Accesso Biblioteca Digitale",
+        "tier2_badge": "Selezionato",
+        "tier3_name": "Mecenate",
+        "tier3_desc": "Immersione completa. Artefatti mensili ed eventi esclusivi.",
+        "tier3_feat1": "Tutti i benefici Membro",
+        "tier3_feat2": "Arte Mensile in Edizione Limitata",
+        "tier3_feat3": "Eventi Salotto Privato",
+        "tier3_feat4": "Servizio Concierge",
+        "tier3_feat5": "Regalo Annuale",
+        "apply": "Candidati"
+    },
+    "founder": {
+        "title": "Nota del Fondatore",
+        "p1": "Abbiamo creato Paspartu.co per i cercatori, i pensatori e gli osservatori silenziosi. In un mondo di consumo veloce, scegliamo la cura lenta.",
+        "p2": "Ogni cornice che inviamo e ogni assemblea che ospitiamo è un passo verso un modo di vivere più significativo. Non sei solo un abbonato; sei un membro fondatore di un collettivo intellettuale.",
+        "p3": "Siamo felici che tu sia qui."
+    },
+    "footer": {
+        "brand_desc": "Un santuario curato per l'intelletto. Arte, Filosofia e Cultura consegnate alla tua porta.",
+        "legal": "Legale",
+        "legal_privacy": "Privacy Policy",
+        "legal_terms": "Termini di Servizio",
+        "legal_shipping": "Spedizione e Resi",
+        "contact": "Contatti",
+        "social": "Social",
+        "copyright": "Paspartu. Tutti i diritti riservati."
+    }
+}

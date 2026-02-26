@@ -1,0 +1,70 @@
+{
+    "nav": {
+        "about": "Über Uns",
+        "contact": "Kontakt",
+        "login": "Anmelden"
+    },
+    "hero": {
+        "title1": "Kuratierte Weisheit",
+        "title2_pre": "für den",
+        "title2_post": "Modernen Geist",
+        "subtitle": "Ein exklusiver Abonnement-Club, der Sie mit den tiefgründigsten Kunstwerken, Philosophien und kulturellen Artefakten der Welt verbindet.",
+        "cta": "Beitreten"
+    },
+    "about": {
+        "title": "Die Philosophie des Rahmens",
+        "p1": "Wir glauben, dass eine leere Wand ein seelenloses Zuhause ist – ähnlich wie ein Geist ohne Kunst und Philosophie.",
+        "p2": "Bei Paspartu.co verkaufen wir nicht nur Rahmen; wir kuratieren intellektuelle Fenster. Unser Name kommt vom 'Passepartout': Der elegante Raum, der ein Meisterwerk schützt und ihm gleichzeitig Fokus und Tiefe verleiht. Für uns repräsentiert dieser Raum die Klarheit, die wir in einer lauten Welt suchen.",
+        "p3": "Jeden Monat wählen wir ein Thema, generieren ein einzigartiges Kunstwerk und laden Sie zu einer intellektuellen Versammlung ein. Denn Ihr Zuhause sollte ein Spiegelbild Ihres Geistes sein: tief, kuratiert und lebendig."
+    },
+    "gallery": {
+        "title": "Exklusive Galerie",
+        "link": "Vollständige Sammlung Ansehen"
+    },
+    "philosophy": {
+        "title_pre": "Die Kunst des",
+        "title_highlight": "Denkens",
+        "p1": "In einem Zeitalter des Lärms bietet Paspartu Stille. Wir kuratieren einen monatlichen Dialog zwischen den großen Denkern der Vergangenheit und den Avantgarde-Künstlern der Gegenwart.",
+        "p2": "Ihr Abonnement gewährt Ihnen physische Artefakte – Bücher, Drucke und Essays – die nicht nur gelesen, sondern erlebt werden sollen. Ein taktiler Rückzugsort für den modernen Intellektuellen."
+    },
+    "membership": {
+        "title": "Mitgliedschaft",
+        "subtitle": "Wählen Sie Ihr Engagement.",
+        "tier1_name": "Beobachter",
+        "tier1_desc": "Digitaler Zugang zu unserem wöchentlichen Newsletter und öffentlichen Archiven.",
+        "tier1_feat1": "Wöchentlicher Leitartikel",
+        "tier1_feat2": "Zugang zum öffentlichen Archiv",
+        "tier1_feat3": "Community-Forum (Nur Lesen)",
+        "tier2_name": "Mitglied",
+        "tier2_desc": "Das volle digitale Erlebnis + vierteljährlicher physischer Druck.",
+        "tier2_feat1": "Alle Beobachter-Vorteile",
+        "tier2_feat2": "Vierteljährliches Printjournal",
+        "tier2_feat3": "Essays nur für Mitglieder",
+        "tier2_feat4": "Zugang zur digitalen Bibliothek",
+        "tier2_badge": "Ausgewählt",
+        "tier3_name": "Mäzen",
+        "tier3_desc": "Vollständiges Eintauchen. Monatliche Artefakte und exklusive Events.",
+        "tier3_feat1": "Alle Mitglied-Vorteile",
+        "tier3_feat2": "Monatliche limitierte Kunst",
+        "tier3_feat3": "Private Salon-Events",
+        "tier3_feat4": "Concierge-Service",
+        "tier3_feat5": "Jahresgeschenk",
+        "apply": "Bewerben"
+    },
+    "founder": {
+        "title": "Notiz des Gründers",
+        "p1": "Wir haben Paspartu.co für die Suchenden, die Denker und die stillen Beobachter geschaffen. In einer Welt des schnellen Konsums wählen wir langsame Kuration.",
+        "p2": "Jeder Rahmen, den wir versenden, und jede Versammlung, die wir veranstalten, ist ein Schritt zu einer sinnvolleren Lebensweise. Sie sind nicht nur ein Abonnent; Sie sind ein Gründungsmitglied eines intellektuellen Kollektivs.",
+        "p3": "Wir freuen uns, dass Sie hier sind."
+    },
+    "footer": {
+        "brand_desc": "Ein kuratierter Zufluchtsort für den Intellekt. Kunst, Philosophie und Kultur direkt zu Ihnen geliefert.",
+        "legal": "Rechtliches",
+        "legal_privacy": "Datenschutzrichtlinie",
+        "legal_terms": "Nutzungsbedingungen",
+        "legal_shipping": "Versand & Rückgabe",
+        "contact": "Kontakt",
+        "social": "Sozial",
+        "copyright": "Paspartu. Alle Rechte vorbehalten."
+    }
+}

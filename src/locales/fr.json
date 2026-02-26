@@ -1,0 +1,70 @@
+{
+    "nav": {
+        "about": "À Propos",
+        "contact": "Contact",
+        "login": "Connexion"
+    },
+    "hero": {
+        "title1": "Sagesse Choisie",
+        "title2_pre": "pour l'Esprit",
+        "title2_post": "Moderne",
+        "subtitle": "Un club d'abonnement exclusif vous connectant aux œuvres d'art, de philosophie et culturelles les plus profondes du monde.",
+        "cta": "Rejoignez-nous"
+    },
+    "about": {
+        "title": "La Philosophie du Cadre",
+        "p1": "Nous croyons qu'un mur vide est une maison sans âme, tout comme un esprit sans art ni philosophie.",
+        "p2": "Chez Paspartu.co, nous ne vendons pas seulement des cadres ; nous organisons des fenêtres intellectuelles. Notre nom vient du 'passe-partout' : l'espace élégant qui protège un chef-d'œuvre tout en lui donnant focus et profondeur. Pour nous, cet espace représente la clarté que nous recherchons dans un monde bruyant.",
+        "p3": "Chaque mois, nous sélectionnons un thème, générons une œuvre unique et vous invitons à une assemblée intellectuelle. Parce que votre maison doit être le reflet de votre esprit : profond, organisé et vivant."
+    },
+    "gallery": {
+        "title": "Galerie Exclusive",
+        "link": "Voir la Collection Complète"
+    },
+    "philosophy": {
+        "title_pre": "L'Art de",
+        "title_highlight": "Penser",
+        "p1": "Dans une ère de bruit, Paspartu offre le silence. Nous organisons un dialogue mensuel entre les grands penseurs du passé et les artistes d'avant-garde du présent.",
+        "p2": "Votre abonnement vous accorde des artefacts physiques—livres, estampes et essais—conçus non seulement pour être lus, mais pour être vécus. Une retraite tactile pour l'intellectuel moderne."
+    },
+    "membership": {
+        "title": "Adhésion",
+        "subtitle": "Choisissez votre niveau d'engagement.",
+        "tier1_name": "Observateur",
+        "tier1_desc": "Accès numérique à notre newsletter hebdomadaire et aux archives publiques.",
+        "tier1_feat1": "Éditorial Hebdomadaire",
+        "tier1_feat2": "Accès aux Archives Publiques",
+        "tier1_feat3": "Forum Communautaire (Lecture seule)",
+        "tier2_name": "Membre",
+        "tier2_desc": "L'expérience numérique complète + impression physique trimestrielle.",
+        "tier2_feat1": "Tous les avantages Observateur",
+        "tier2_feat2": "Journal Imprimé Trimestriel",
+        "tier2_feat3": "Essais Réservés aux Membres",
+        "tier2_feat4": "Accès à la Bibliothèque Numérique",
+        "tier2_badge": "Sélectionné",
+        "tier3_name": "Mécène",
+        "tier3_desc": "Immersion complète. Artefacts mensuels et événements exclusifs.",
+        "tier3_feat1": "Tous les avantages Membre",
+        "tier3_feat2": "Art Mensuel en Édition Limitée",
+        "tier3_feat3": "Événements Salon Privé",
+        "tier3_feat4": "Service de Conciergerie",
+        "tier3_feat5": "Cadeau Annuel",
+        "apply": "Postuler"
+    },
+    "founder": {
+        "title": "Note du Fondateur",
+        "p1": "Nous avons créé Paspartu.co pour les chercheurs, les penseurs et les observateurs silencieux. Dans un monde de consommation rapide, nous choisissons la curation lente.",
+        "p2": "Chaque cadre que nous envoyons et chaque assemblée que nous organisons est un pas vers une façon de vivre plus significative. Vous n'êtes pas seulement un abonné ; vous êtes un membre fondateur d'un collectif intellectuel.",
+        "p3": "Nous sommes heureux que vous soyez ici."
+    },
+    "footer": {
+        "brand_desc": "Un sanctuaire organisé pour l'intellect. Art, Philosophie et Culture livrés à votre porte.",
+        "legal": "Légal",
+        "legal_privacy": "Politique de Confidentialité",
+        "legal_terms": "Conditions d'Utilisation",
+        "legal_shipping": "Expédition et Retours",
+        "contact": "Contact",
+        "social": "Social",
+        "copyright": "Paspartu. Tous droits réservés."
+    }
+}

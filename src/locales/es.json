@@ -1,0 +1,70 @@
+{
+    "nav": {
+        "about": "Sobre Nosotros",
+        "contact": "Contacto",
+        "login": "Iniciar Sesión"
+    },
+    "hero": {
+        "title1": "Sabiduría Curada",
+        "title2_pre": "para la Mente",
+        "title2_post": "Moderna",
+        "subtitle": "Un club de suscripción exclusivo que te conecta con el arte, la filosofía y los artefactos culturales más profundos del mundo.",
+        "cta": "Únete a Nosotros"
+    },
+    "about": {
+        "title": "La Filosofía del Marco",
+        "p1": "Creemos que una pared vacía es un hogar sin alma, al igual que una mente sin arte y filosofía.",
+        "p2": "En Paspartu.co, no solo vendemos marcos; curamos ventanas intelectuales. Nuestro nombre proviene del 'passe-partout': El espacio elegante que protege una obra maestra mientras le da enfoque y profundidad. Para nosotros, este espacio representa la claridad que buscamos en un mundo ruidoso.",
+        "p3": "Cada mes, seleccionamos un tema, generamos una obra de arte única y te invitamos a una asamblea intelectual. Porque tu hogar debe ser un reflejo de tu mente: profundo, curado y vivo."
+    },
+    "gallery": {
+        "title": "Galería Exclusiva",
+        "link": "Ver Colección Completa"
+    },
+    "philosophy": {
+        "title_pre": "El Arte de",
+        "title_highlight": "Pensar",
+        "p1": "En una era de ruido, Paspartu ofrece silencio. Curamos un diálogo mensual entre los grandes pensadores del pasado y los artistas de vanguardia del presente.",
+        "p2": "Tu suscripción te otorga artefactos físicos—libros, impresiones y ensayos—diseñados no solo para ser leídos, sino para ser vividos. Un retiro táctil para el intelectual moderno."
+    },
+    "membership": {
+        "title": "Membresía",
+        "subtitle": "Elige tu nivel de compromiso.",
+        "tier1_name": "Observador",
+        "tier1_desc": "Acceso digital a nuestro boletín semanal y archivos públicos.",
+        "tier1_feat1": "Editorial Semanal",
+        "tier1_feat2": "Acceso a Archivo Público",
+        "tier1_feat3": "Foro de la Comunidad (Solo lectura)",
+        "tier2_name": "Miembro",
+        "tier2_desc": "La experiencia digital completa + impresión física trimestral.",
+        "tier2_feat1": "Todos los beneficios de Observador",
+        "tier2_feat2": "Revista Impresa Trimestral",
+        "tier2_feat3": "Ensayos solo para Miembros",
+        "tier2_feat4": "Acceso a Biblioteca Digital",
+        "tier2_badge": "Seleccionado",
+        "tier3_name": "Mecenas",
+        "tier3_desc": "Inmersión completa. Artefactos mensuales y eventos exclusivos.",
+        "tier3_feat1": "Todos los beneficios de Miembro",
+        "tier3_feat2": "Arte Mensual de Edición Limitada",
+        "tier3_feat3": "Eventos de Salón Privado",
+        "tier3_feat4": "Servicio de Conserjería",
+        "tier3_feat5": "Regalo Anual",
+        "apply": "Aplicar"
+    },
+    "founder": {
+        "title": "Nota del Fundador",
+        "p1": "Creamos Paspartu.co para los buscadores, los pensadores y los observadores silenciosos. En un mundo de consumo rápido, elegimos la curación lenta.",
+        "p2": "Cada marco que enviamos y cada asamblea que organizamos es un paso hacia una forma de vivir más significativa. No eres solo un suscriptor; eres un miembro fundador de un colectivo intelectual.",
+        "p3": "Nos alegra que estés aquí."
+    },
+    "footer": {
+        "brand_desc": "Un santuario curado para el intelecto. Arte, Filosofía y Cultura entregados a tu puerta.",
+        "legal": "Legal",
+        "legal_privacy": "Política de Privacidad",
+        "legal_terms": "Términos de Servicio",
+        "legal_shipping": "Envíos y Devoluciones",
+        "contact": "Contacto",
+        "social": "Social",
+        "copyright": "Paspartu. Todos los derechos reservados."
+    }
+}

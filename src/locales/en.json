@@ -1,0 +1,74 @@
+{
+    "nav": {
+        "about": "About Us",
+        "contact": "Contact",
+        "login": "Pre-Register"
+    },
+    "hero": {
+        "title1": "Curated Wisdom",
+        "title2_pre": "for",
+        "title2_post": "Intellectual Minds",
+        "subtitle": "An exclusive subscription club connecting you to the world’s most profound art, philosophy, and cultural artifacts.",
+        "cta": "Join Us"
+    },
+    "about": {
+        "title": "The Philosophy of the Frame",
+        "p1": "We believe that a blank wall is a soulless home—much like a mind without art and philosophy.",
+        "p2": "At Paspartu.co, we don’t just sell frames; we curate intellectual windows. Our name comes from the 'passe-partout' : The elegant space that protects a masterpiece while giving it focus and depth. To us, this space represents the clarity we seek in a noisy world.",
+        "p3": "Every month, we select a theme, generate a unique artwork, and invite you to an intellectual assembly. Because your home should be a reflection of your mind: deep, curated, and alive."
+    },
+    "gallery": {
+        "title": "Exclusive Gallery",
+        "link": "View Full Collection"
+    },
+    "philosophy": {
+        "title_pre": "The Art of",
+        "title_highlight": "Thinking",
+        "p1": "In an age of noise, Paspartu offers silence. We curate a monthly dialogue between the great thinkers of the past and the vanguard artists of the present.",
+        "p2": "Your subscription grants you the community you need to design your life like a work of art."
+    },
+    "membership": {
+        "title": "Membership",
+        "subtitle": "Choose your level of engagement.",
+        "tier1_name": "Observer",
+        "tier1_price": "249.99 TL",
+        "tier1_desc": "Digital access to our weekly newsletter and public archives.",
+        "tier1_feat1": "Assemble participation",
+        "tier1_feat2": "Journal access",
+        "tier1_feat3": "Curation voting",
+        "tier2_name": "Curator",
+        "tier2_price": "449.99 TL",
+        "tier2_desc": "The full digital experience + monthly physical print.",
+        "tier2_feat1": "Assemble participation",
+        "tier2_feat2": "Journal access",
+        "tier2_feat3": "Curation voting",
+        "tier2_feat4": "Monthly framed artwork",
+        "tier2_badge": "Selected",
+        "tier3_name": "Master",
+        "tier3_price": "699.99 TL",
+        "tier3_desc": "Complete immersion. Lead the dialogue and shape the future.",
+        "tier3_feat1": "Assemble participation",
+        "tier3_feat2": "Journal access",
+        "tier3_feat3": "Curation voting",
+        "tier3_feat4": "Monthly framed artwork",
+        "tier3_feat5": "Assemble moderation",
+        "tier3_feat6": "Decide monthly theme",
+        "apply": "Apply"
+    },
+    "founder": {
+        "title": "Founder’s Note",
+        "p1": "We created Paspartu.co for the seekers, the thinkers, and the quiet observers. In a world of fast consumption, we choose slow curation.",
+        "p2": "Every frame we send and every assembly we host is a step towards a more meaningful way of living. You aren't just a subscriber; you are a founding member of an intellectual collective.",
+        "p3": "We're glad you’re here."
+    },
+    "footer": {
+        "brand_desc": "A curated sanctuary for the intellect. Art, Philosophy, and Culture delivered to your doorstep.",
+        "legal": "Legal",
+        "legal_privacy": "Privacy Policy",
+        "legal_terms": "Terms of Service",
+        "legal_shipping": "Shipping & Returns",
+        "contact": "Contact",
+        "social": "Social",
+        "copyright": "Paspartu. All rights reserved."
+    }
+}

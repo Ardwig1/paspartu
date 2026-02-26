@@ -1,0 +1,74 @@
+{
+    "nav": {
+        "about": "Hakkımızda",
+        "contact": "İletişim",
+        "login": "Ön Kayıt"
+    },
+    "hero": {
+        "title1": "Seçilmiş Bilgelik",
+        "title2_pre": "Entelektüel Zihinler",
+        "title2_post": "İçin",
+        "subtitle": "Sizi dünyanın en derin sanat, felsefe ve kültürel eserleriyle buluşturan özel bir abonelik kulübü.",
+        "cta": "Bize Katılın"
+    },
+    "about": {
+        "title": "Çerçevenin Felsefesi",
+        "p1": "Boş bir duvarın ruhsuz bir ev olduğuna inanıyoruz—tıpkı sanat ve felsefeden yoksun bir zihin gibi.",
+        "p2": "Paspartu.co'da sadece çerçeve satmıyoruz; entelektüel pencereler kürate ediyoruz. Adımız 'passe-partout'dan geliyor: Bir şaheseri korurken ona odak ve derinlik kazandıran zarif boşluk. Bizim için bu boşluk, gürültülü bir dünyada aradığımız berraklığı temsil ediyor.",
+        "p3": "Her ay bir tema seçiyor, benzersiz bir sanat eseri üretiyor ve sizi entelektüel bir meclise davet ediyoruz. Çünkü eviniz zihninizin bir yansıması olmalı: derin, kürate edilmiş ve canlı."
+    },
+    "gallery": {
+        "title": "Özel Galeri",
+        "link": "Tüm Koleksiyonu Görüntüle"
+    },
+    "philosophy": {
+        "title_pre": "Düşünme",
+        "title_highlight": "Sanatı",
+        "p1": "Gürültü çağında, Paspartu sessizlik sunar. Geçmişin büyük düşünürleri ile bugünün öncü sanatçıları arasında aylık bir diyalog kürate ediyoruz.",
+        "p2": "Aboneliğiniz, hayatınızı bir sanat eseri gibi tasarlamanız için ihtiyacınız olan topluluğu size sunar."
+    },
+    "membership": {
+        "title": "Üyelik",
+        "subtitle": "Katılım seviyenizi seçin.",
+        "tier1_name": "Observer",
+        "tier1_price": "249,99 TL",
+        "tier1_desc": "Aylık meclise katılım ve kültürel kürasyon deneyimi.",
+        "tier1_feat1": "Assembly'e katılım",
+        "tier1_feat2": "Journal'a erişim",
+        "tier1_feat3": "Kürasyon yapma",
+        "tier2_name": "Curator",
+        "tier2_price": "449,99 TL",
+        "tier2_desc": "Tam dijital deneyim + evinize özel aylık fiziki sanat eseri.",
+        "tier2_feat1": "Assembly'e katılım",
+        "tier2_feat2": "Journal'a erişim",
+        "tier2_feat3": "Kürasyon yapma",
+        "tier2_feat4": "Aylık çerçeveli sanat eseri adrese teslim",
+        "tier2_badge": "Selected",
+        "tier3_name": "Master",
+        "tier3_price": "699,99 TL",
+        "tier3_desc": "Tam daldırma. Diyaloglara yön verin ve geleceği şekillendirin.",
+        "tier3_feat1": "Assembly'e katılım",
+        "tier3_feat2": "Journal'a erişim",
+        "tier3_feat3": "Kürasyon yapma",
+        "tier3_feat4": "Aylık çerçeveli sanat eseri adrese teslim",
+        "tier3_feat5": "Assembly'de moderatörlük",
+        "tier3_feat6": "Ayın konusunu belirleme",
+        "apply": "Başvuru"
+    },
+    "founder": {
+        "title": "Kurucunun Notu",
+        "p1": "Paspartu.co'yu arayanlar, düşünenler ve sessiz gözlemciler için yarattık. Hızlı tüketim dünyasında, yavaş kürasyonu seçiyoruz.",
+        "p2": "Gönderdiğimiz her çerçeve ve ev sahipliği yaptığımız her meclis, daha anlamlı bir yaşam biçimine doğru bir adımdır. Siz sadece bir abone değilsiniz; entelektüel bir kolektifin kurucu üyesisiniz.",
+        "p3": "Burada olduğunuz için mutluyuz."
+    },
+    "footer": {
+        "brand_desc": "Entelektüel için kürate edilmiş bir sığınak. Sanat, Felsefe ve Kültür kapınıza teslim.",
+        "legal": "Yasal",
+        "legal_privacy": "Gizlilik Politikası",
+        "legal_terms": "Hizmet Şartları",
+        "legal_shipping": "Kargo ve İade",
+        "contact": "İletişim",
+        "social": "Sosyal",
+        "copyright": "Paspartu. Tüm hakları saklıdır."
+    }
+}
