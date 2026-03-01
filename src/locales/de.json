@@ -49,7 +49,8 @@
         "tier3_feat3": "Private Salon-Events",
         "tier3_feat4": "Concierge-Service",
         "tier3_feat5": "Jahresgeschenk",
-        "apply": "Bewerben"
+        "apply": "Bewerben",
+        "pre_register": "Vorregistrierung"
     },
     "founder": {
         "title": "Notiz des Gründers",

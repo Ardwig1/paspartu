@@ -49,7 +49,8 @@
         "tier3_feat3": "Eventi Salotto Privato",
         "tier3_feat4": "Servizio Concierge",
         "tier3_feat5": "Regalo Annuale",
-        "apply": "Candidati"
+        "apply": "Candidati",
+        "pre_register": "Pre-registrazione"
     },
     "founder": {
         "title": "Nota del Fondatore",

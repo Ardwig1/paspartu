@@ -7,55 +7,57 @@ const images = Object.values(imageModules);
 
 const Gallery = () => {
     const { t } = useTranslation();
-    // Duplicate images enough times to ensure seamless looping without gaps
-    // For a smooth loop, we need at least enough content to fill the screen + buffer
-    // and then we duplicate that entire set for the 'second half' of the loop.
-    // Since we have a few images, tripling the base set before doubling for the loop guarantees coverage.
     const marqueeImages = [...images, ...images, ...images];
 
-
-
     return (
-        <section id="archive" className="py-24 overflow-hidden bg-cream">
-            <div className="px-6 md:px-12 mb-12 flex justify-between items-end max-w-7xl mx-auto">
+        <section id="archive" className="py-24 bg-cream">
+            <div className="px-6 md:px-12 mb-6 max-w-7xl mx-auto">
                 <h2 className="font-serif text-4xl text-midnight">{t('gallery.title')}</h2>
-                <a href="#" className="hidden md:block text-sm border-b border-midnight pb-1 hover:text-gold hover:border-gold transition-colors">{t('gallery.link')}</a>
             </div>
 
-            {/* Marquee Container */}
-            <div className="relative w-full overflow-hidden">
+            {/* Marquee Container — overflow-x-hidden + py-8 so frames aren't clipped top/bottom */}
+            <div className="relative w-full overflow-x-hidden py-8">
                 <div className="flex">
                     <motion.div
                         className="flex gap-8 px-4"
-                        animate={{
-                            x: "-50%",
-                        }}
+                        animate={{ x: "-50%" }}
                         transition={{
                             x: {
                                 repeat: Infinity,
                                 repeatType: "loop",
-                                duration: 120, // Increase duration for smoother/slower scroll with more items
+                                duration: 120,
                                 ease: "linear",
                             },
                         }}
                     >
-                        {/* We render the set twice. The animation goes from 0 to -50%.
-                            At -50%, the second half matches the position of the first half at 0%, creating a seamless loop.
-                        */}
                         {[...marqueeImages, ...marqueeImages].map((src, index) => (
                             <div
                                 key={index}
-                                className="w-[300px] md:w-[450px] aspect-[3/4] overflow-hidden shadow-md bg-gray-100 flex-shrink-0"
+                                className="flex-shrink-0 w-[300px] md:w-[450px]"
+                                style={{
+                                    padding: '14px',
+                                    background: '#f5f0e8',
+                                    boxShadow: '0 0 0 2px #c8b99a, 0 6px 28px rgba(0,0,0,0.15)',
+                                }}
                             >
-                                <img
-                                    src={src}
-                                    alt={`Gallery item ${index}`}
-                                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-700 ease-out"
-                                />
+                                <div style={{ padding: '6px', border: '1px solid #c8b99a' }}>
+                                    <div className="aspect-[3/4] overflow-hidden bg-gray-100">
+                                        <img
+                                            src={src}
+                                            alt={`Gallery item ${index}`}
+                                            className="w-full h-full object-cover hover:scale-105 transition-transform duration-700 ease-out"
+                                        />
+                                    </div>
+                                </div>
                             </div>
                         ))}
                     </motion.div>
                 </div>
+            </div>
+
+            {/* Caption below marquee */}
+            <div className="px-6 md:px-12 mt-6 max-w-7xl mx-auto text-right">
+                <p className="text-sm text-charcoal/50 italic">Source: Art Institute of Chicago</p>
             </div>
         </section>
     );

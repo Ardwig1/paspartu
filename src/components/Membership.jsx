@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import { Check } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
+const FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLScnaSDw3yD5zOLrl9C5oK3kJnzKYFyJgaZ8ivq35PK97aeRJg/viewform?usp=publish-editor";
+
 const Membership = () => {
     const { t } = useTranslation();
 
@@ -43,14 +45,27 @@ const Membership = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: index * 0.2 }}
-                            className={`p-10 border ${tier.highlight ? 'border-midnight bg-midnight text-cream' : 'border-black/5 bg-cream/30 text-charcoal'} flex flex-col relative`}
+                            className={`p-10 flex flex-col relative ${tier.highlight
+                                    ? 'bg-midnight text-cream'
+                                    : 'bg-cream/30 text-charcoal'
+                                }`}
+                            style={{
+                                border: tier.highlight
+                                    ? '4px solid #ffffff'
+                                    : '4px solid #1a1a1a',
+                                boxShadow: tier.highlight
+                                    ? '0 0 0 1px #c8b99a, 0 8px 32px rgba(0,0,0,0.18)'
+                                    : '0 4px 16px rgba(0,0,0,0.08)',
+                            }}
                         >
                             {tier.highlight && (
                                 <span className="absolute top-0 right-0 bg-gold text-midnight text-xs font-bold px-3 py-1 uppercase tracking-widest">
                                     {t('membership.tier2_badge')}
                                 </span>
                             )}
-                            <h3 className="font-serif text-2xl mb-2">{tier.name}</h3>
+                            <h3 className={`font-serif text-2xl mb-2 ${tier.highlight ? 'text-cream' : ''}`}>
+                                {tier.name}
+                            </h3>
                             <div className="text-3xl font-bold mb-6">{tier.price}</div>
                             <p className="opacity-80 mb-8 min-h-[3rem]">{tier.description}</p>
 
@@ -63,9 +78,17 @@ const Membership = () => {
                                 ))}
                             </ul>
 
-                            <button className={`w-full py-4 text-sm uppercase tracking-widest transition-all ${tier.highlight ? 'bg-cream text-midnight hover:bg-gold' : 'bg-midnight text-cream hover:opacity-90'}`}>
-                                {t('membership.apply')}
-                            </button>
+                            <a
+                                href={FORM_URL}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={`w-full py-4 text-sm uppercase tracking-widest transition-all text-center block ${tier.highlight
+                                        ? 'bg-cream text-midnight hover:bg-gold'
+                                        : 'bg-midnight text-cream hover:opacity-90'
+                                    }`}
+                            >
+                                {t('membership.pre_register')}
+                            </a>
                         </motion.div>
                     ))}
                 </div>

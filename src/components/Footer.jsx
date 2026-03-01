@@ -1,5 +1,6 @@
 import { Instagram, Linkedin } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     const { t } = useTranslation();
@@ -8,7 +9,7 @@ const Footer = () => {
         <footer id="contact" className="bg-midnight text-cream py-20 px-6 md:px-12 border-t border-white/10 font-serif">
             <div className="max-w-7xl mx-auto flex flex-col items-center">
 
-                {/* Brand - Top Center (Optional but good for identity) */}
+                {/* Brand - Top Center */}
                 <div className="mb-16 text-center">
                     <h2 className="font-serif text-3xl"><span className="text-gold">Paspartu</span><span className="text-cream">.co</span></h2>
                 </div>
@@ -20,9 +21,9 @@ const Footer = () => {
                     <div className="flex flex-col items-center md:items-start">
                         <h3 className="text-xs uppercase tracking-widest text-gold mb-6">{t('footer.legal')}</h3>
                         <ul className="space-y-4 text-sm text-white/80">
-                            <li><a href="#" className="hover:text-white transition-colors">{t('footer.legal_privacy')}</a></li>
-                            <li><a href="#" className="hover:text-white transition-colors">{t('footer.legal_terms')}</a></li>
-                            <li><a href="#" className="hover:text-white transition-colors">{t('footer.legal_shipping')}</a></li>
+                            <li><Link to="/privacy-policy" className="hover:text-white transition-colors">{t('footer.legal_privacy')}</Link></li>
+                            <li><Link to="/terms-of-service" className="hover:text-white transition-colors">{t('footer.legal_terms')}</Link></li>
+                            <li><Link to="/shipping-returns" className="hover:text-white transition-colors">{t('footer.legal_shipping')}</Link></li>
                         </ul>
                     </div>
 

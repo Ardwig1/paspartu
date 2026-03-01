@@ -49,7 +49,8 @@
         "tier3_feat3": "Eventos de Salón Privado",
         "tier3_feat4": "Servicio de Conserjería",
         "tier3_feat5": "Regalo Anual",
-        "apply": "Aplicar"
+        "apply": "Aplicar",
+        "pre_register": "Pre-registro"
     },
     "founder": {
         "title": "Nota del Fundador",

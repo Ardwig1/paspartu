@@ -53,7 +53,8 @@
         "tier3_feat4": "Monthly framed artwork",
         "tier3_feat5": "Assemble moderation",
         "tier3_feat6": "Decide monthly theme",
-        "apply": "Apply"
+        "apply": "Apply",
+        "pre_register": "Pre-Register"
     },
     "founder": {
         "title": "Founder’s Note",
