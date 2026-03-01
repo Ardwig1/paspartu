@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Philosophy from "./components/Philosophy";
@@ -30,14 +31,17 @@ function HomePage() {
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-        <Route path="/terms-of-service" element={<TermsOfService />} />
-        <Route path="/shipping-returns" element={<ShippingReturns />} />
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-of-service" element={<TermsOfService />} />
+          <Route path="/shipping-returns" element={<ShippingReturns />} />
+        </Routes>
+      </BrowserRouter>
+      <SpeedInsights />
+    </>
   );
 }
 
