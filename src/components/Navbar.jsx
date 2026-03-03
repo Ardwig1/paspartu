@@ -29,7 +29,13 @@ const Navbar = () => {
         setIsMobileMenuOpen(false);
     };
 
-    const FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLScnaSDw3yD5zOLrl9C5oK3kJnzKYFyJgaZ8ivq35PK97aeRJg/viewform?usp=publish-editor";
+    const getFormUrl = () => {
+        const lang = i18n.language || 'en';
+        if (lang === 'tr') {
+            return "https://docs.google.com/forms/d/e/1FAIpQLScnaSDw3yD5zOLrl9C5oK3kJnzKYFyJgaZ8ivq35PK97aeRJg/viewform?usp=publish-editor";
+        }
+        return "https://docs.google.com/forms/d/e/1FAIpQLSdmZY_9CYbxJ5IjcQVyEQpX9S_o3JK85VhgFirH-v6Xe3QZcA/viewform";
+    };
 
     return (
         <>
@@ -91,7 +97,7 @@ const Navbar = () => {
                     </div>
 
                     <a
-                        href={FORM_URL}
+                        href={getFormUrl()}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="px-4 md:px-6 py-2 border border-midnight text-midnight text-xs md:text-sm uppercase tracking-widest hover:bg-midnight hover:text-cream transition-all rounded-full whitespace-nowrap"

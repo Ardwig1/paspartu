@@ -2,10 +2,16 @@ import { motion } from "framer-motion";
 import { Check } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
-const FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLScnaSDw3yD5zOLrl9C5oK3kJnzKYFyJgaZ8ivq35PK97aeRJg/viewform?usp=publish-editor";
-
 const Membership = () => {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
+
+    const getFormUrl = () => {
+        const lang = i18n.language || 'en';
+        if (lang === 'tr') {
+            return "https://docs.google.com/forms/d/e/1FAIpQLScnaSDw3yD5zOLrl9C5oK3kJnzKYFyJgaZ8ivq35PK97aeRJg/viewform?usp=publish-editor";
+        }
+        return "https://docs.google.com/forms/d/e/1FAIpQLSdmZY_9CYbxJ5IjcQVyEQpX9S_o3JK85VhgFirH-v6Xe3QZcA/viewform";
+    };
 
     const tiers = [
         {
@@ -46,8 +52,8 @@ const Membership = () => {
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: index * 0.2 }}
                             className={`p-10 flex flex-col relative ${tier.highlight
-                                    ? 'bg-midnight text-cream'
-                                    : 'bg-cream/30 text-charcoal'
+                                ? 'bg-midnight text-cream'
+                                : 'bg-cream/30 text-charcoal'
                                 }`}
                             style={{
                                 border: tier.highlight
@@ -79,12 +85,12 @@ const Membership = () => {
                             </ul>
 
                             <a
-                                href={FORM_URL}
+                                href={getFormUrl()}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={`w-full py-4 text-sm uppercase tracking-widest transition-all text-center block ${tier.highlight
-                                        ? 'bg-cream text-midnight hover:bg-gold'
-                                        : 'bg-midnight text-cream hover:opacity-90'
+                                    ? 'bg-cream text-midnight hover:bg-gold'
+                                    : 'bg-midnight text-cream hover:opacity-90'
                                     }`}
                             >
                                 {t('membership.pre_register')}
